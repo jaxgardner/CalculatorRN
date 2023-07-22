@@ -20,7 +20,7 @@ export default class App extends Component {
         {/* Status bae here */}
         <SafeAreaView>
           <Text style={styles.value}>
-            {parseFloat(this.state.currentValue).toLocaleString()}
+            {(this.state.currentValue).toLocaleString()}
           </Text>
 
           {/* Do create componentRow */}
